@@ -68,8 +68,10 @@ Due to GitHub size limits, the image datasets and the pre-trained CNN model are 
 
 5. **Run segmentation preprocessing and training**
 
-        python code/segment.py  
-        python code/train_model.py
+    ```bash
+    python code/segment.py
+    python code/train_model.py
+    ```
 
 6. **Explore notebooks**  
     
