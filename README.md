@@ -29,6 +29,7 @@ The models were evaluated on accuracy, precision, recall, and, most importantly,
     ├── notebooks/                            # Jupyter notebooks for demos and visualization
     │   ├── segment_example.ipynb
     │   └── gradcam_example.ipynb
+    ├── requirements.txt                      # Dependencies for model training, visualization, and preprocessing
     └── README.md                             # This file
 
 ---
@@ -59,23 +60,21 @@ Due to GitHub size limits, the image datasets and the pre-trained CNN model are 
     Download the `Train/`, `Test/`, and `example_model.keras` files from the Google Drive link below and place them into the following structure:
 
         project_root/
-        ├── data/
-        │   ├── train/
-        │   └── test/
-        └── models/
-            └── example_model.keras
+        ├── Train/
+        ├── Test/
+        └── example_model.keras
 
     🔗 **[Google Drive Folder](https://drive.google.com/drive/folders/1_2LBAiQUiLUfs9wU5Zb0JWFQcEyku59s?usp=sharing)**
 
-4. **Run segmentation preprocessing and training**  
-    
-    python code/segment.py
-    python code/train_model.py
+5. **Run segmentation preprocessing and training**
+
+        python code/segment.py  
+        python code/train_model.py
 
 6. **Explore notebooks**  
     
-    jupyter notebook notebooks/image_segmentation_demo.ipynb
-    jupyter notebook notebooks/gradcam_example.ipynb
+       jupyter notebook notebooks/image_segmentation_demo.ipynb
+       jupyter notebook notebooks/gradcam_example.ipynb
 
 ---
 
